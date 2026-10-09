@@ -1,0 +1,46 @@
+
+name: Update Profile Visuals
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-visuals.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: LeonardoSilva1203
+          options: "bg_color=0D0D0D&color=FFFFFF&line=FF3030&point=FF3030&area=true&hide_border=true&custom_title=ACTIVITY%20GRAPH"
+          output_path: activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate GitHub trophies
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: "username=LeonardoSilva1203&theme=darkhub&column=4&no-frame=true&no-bg=true"
+          path: trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activity-graph.svg trophy.svg
+          git commit -m "chore: update profile visuals" || exit 0
+          git push

@@ -92,7 +92,15 @@ Acredito que cada projeto é uma oportunidade de aprender, experimentar e evolui
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LeonardoSilva1203&bg_color=0D0D0D&color=FFFFFF&line=FF3030&point=FFFFFF&area=true&area_color=FF3030&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY" width="100%" alt="Gráfico de atividade do GitHub"/>
+<a href="https://github.com/LeonardoSilva1203">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=LeonardoSilva1203&bg_color=0D0D0D&color=FFFFFF&line=FF3030&point=FF3030&area=true&hide_border=true"
+  width="100%"
+  alt="Histórico de atividade do GitHub"
+/>
+
+</a>
 
 </div>
 
@@ -102,7 +110,15 @@ Acredito que cada projeto é uma oportunidade de aprender, experimentar e evolui
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=LeonardoSilva1203&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" width="100%" alt="GitHub Trophies"/>
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+
+<img
+  src="https://github-profile-trophy.vercel.app/?username=LeonardoSilva1203&theme=darkhub&no-frame=true&column=4"
+  width="100%"
+  alt="Conquistas do GitHub"
+/>
+
+</a>
 
 </div>
 

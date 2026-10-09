@@ -1,5 +1,3 @@
-# 🔴 LEONARDO CERQUEIRA
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0d0d0d&text=LEONARDO%20CERQUEIRA&fontColor=ffffff&fontSize=42&fontAlignY=42&desc=DEVELOPMENT%20%2F%20TECHNOLOGY%20%2F%20CREATIVITY&descSize=13&descAlignY=62&stroke=ff3030&strokeWidth=2" width="100%" alt="Banner Leonardo Cerqueira"/>
@@ -148,7 +146,7 @@ Se quiser acompanhar meus projetos e minha jornada na tecnologia, me encontre po
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0d0d0d&section=footer&text=CONTINUE%20CONSTRUINDO.&fontColor=ff3030&fontSize=20&fontAlignY=55" width="100%" alt="Continue construindo"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0d0d0d&section=footer&text=SEMPRE%20ME%20SUPERANDO.&fontColor=ff3030&fontSize=20&fontAlignY=55" width="100%" alt="Continue construindo"/>
 
 <sub>Feito por Leonardo Cerqueira · Aprendendo, desenvolvendo e evoluindo.</sub>
 

@@ -99,6 +99,7 @@ Acredito que cada projeto é uma oportunidade de aprender, experimentar e evolui
 />
 
 </div>
+
 ---
 
 ## GitHub trophies
@@ -119,7 +120,11 @@ Acredito que cada projeto é uma oportunidade de aprender, experimentar e evolui
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LeonardoSilva1203/LeonardoSilva1203/output/snake.svg" alt="Animação da cobrinha percorrendo as contribuições do GitHub"/>
+<img
+  src="https://raw.githubusercontent.com/LeonardoSilva1203/LeonardoSilva1203/output/snake-dark.svg"
+  width="100%"
+  alt="Contribution Snake"
+/>
 
 </div>
 
